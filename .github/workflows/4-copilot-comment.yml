@@ -1,7 +1,7 @@
 name: Step 4, Add Copilot suggestion from comment
 
 # This step triggers after push to main#comments.js.
-# This step updates from step 3 to step 4.
+# This step updates from step 4 to step X.
 
 # This will run every time we main#comments.js.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
@@ -62,7 +62,7 @@ jobs:
           file: "comments.js"
           search: "Create web server"
 
-      # In README.md, switch step 3 for step X.
+      # In README.md, switch step 4 for step X.
       - name: Update to step X
         uses: skills/action-update-step@v2
         with:
